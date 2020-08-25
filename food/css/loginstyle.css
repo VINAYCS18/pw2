@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Miss+Fajardose&family=Poppins&display=swap');
+
+body{
+	overflow-x: hidden;
+}
+
+.titl{
+	position: absolute;
+	left: -50%;
+	top: 10%;
+	width: 200%;
+	text-align: center;
+	padding: 8px 12px;
+}
+
+.titl{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	letter-spacing: 1.5px;
+}
+
+.sug{
+	position: absolute;
+	width: 160px;
+	height: 120px;
+	border-radius: 18px;
+	border: 3px solid #A82128;
+	left: 15%;
+	top: 45%;
+	transform: translateY(-50%);
+	text-align: center;
+	box-shadow: inset 0 0 6px #A82128 ;
+	animation: open 3s ease-in 1;
+}
+
+.sug p{
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.sug span{
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+.cyn{
+	height: 14%;
+	width: 200%;
+	position: absolute;
+	bottom: 0;
+	left: -50%;
+	box-shadow: 0 0 18px #000;
+	background: #A82128;
+}
+
+.con img{
+	height: 360px;
+	width: 400px;
+	position: absolute;
+	bottom: 10%;
+	right: 4%;
+	z-index: -1;
+	animation: horizon 5s ease-in 1;
+}
+
+.detail{
+	height: 62px;
+	width: 200px;
+	display: flex;
+	float: right;
+	color: #fff;
+	margin-right: 10px;
+	align-items: center;
+	cursor: pointer;
+}
+
+.detail img{
+	padding:4px 8px;
+	height: 50px;
+	width: 55px;
+}
+
+.detail p{
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.outter{
+	padding:70px 40px;
+	position: absolute;
+	top: 60%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #A82128;
+	color: #fff;
+	justify-content: space-around;
+	width: 800px;
+	border: 3px solid #A82128;
+	box-shadow:inset 0 0 12px #A82128;
+}
+
+.outter .reslogo{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.outter .reslogo p{
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+}
+.outter .reslogo img{
+		height: 100px;
+		width: 120px;
+}
+
+address{
+	font-size: 14px;
+	font-weight: 200;
+}
+
+.info{
+	margin-top: -10px;
+	height: 50px;
+	width: 100%;
+	border-bottom: 1.5px solid gray;
+	
+}
+
+
+.info p{
+	font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes open{
+	0%{
+		opacity: 0;
+	}
+	85%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes horizon{
+	0%{
+		right: 150%;
+		bottom: 9.8%;
+	}
+	15%{
+		bottom: 10.2%;
+	}
+	30%{
+		bottom: 9.8%;
+	}
+	45%{
+		bottom: 10.2%;
+	}
+	60%{
+		right: 4%;
+		bottom: 10.2%;
+	}
+	63%{
+		right: 4%;
+		bottom: 10.2%;
+	}
+	66%{
+		bottom: 9.8%;
+	}
+	69%{
+		bottom: 10.2%;
+	}
+	72%{
+		bottom: 9.8%;
+	}
+	75%{
+		bottom: 10.2%;
+	}
+	78%{
+		bottom: 9.8%;
+	}
+	81%{
+		bottom: 10.2%;
+	}
+	84%{
+		bottom: 9.8%;
+	}
+	87%{
+		bottom: 10.2%;
+	}
+	90%{
+		bottom: 9.8%;
+	}
+	92%{
+		bottom: 10.2%;
+	}
+	94%{
+		bottom: 9.8%;
+	}
+	96%{
+		bottom: 10.2%;
+	}
+	98%{
+		bottom: 9.8%;
+	}
+	100%{
+		bottom: 10%;
+	}
+}
+
